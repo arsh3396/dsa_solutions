@@ -1,0 +1,30 @@
+name: Update Repository Dashboard
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Dashboard Script
+        run: python generate_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Dashboard Bot"
+          git add README.md
+          git commit -m "chore: automated dashboard metrics sync [skip ci]" || exit 0
+          git push
