@@ -17,12 +17,17 @@ import java.io.*;
             - we can make reverse number.
 
         Idea:
+            - if number is negative return false.
+            - make copy of number
             - take a number temp = 0
             - we can take modulo of number with 10 and store it in rem
             - multiply temp with 10 and add rem
             - divide number with 10
 
-        TC: O(n)
+            - after loop compare temp with copy
+            - based on that return true/false
+
+        TC: O(log10(n))
         SC: O(1)
  */
 class Solution {
