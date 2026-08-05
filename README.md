@@ -6,9 +6,9 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 <!-- START_METRICS -->
 
 | Topic Collection | Questions Solved |
-| :--- |:----------------:|
-| 📂 Arrays |      **2**       |
-| **Total Progress** |      **2**       |
+| :--- | :---: |
+| 📂 Arrays | **2** |
+| **Total Progress** | **2 / 175+** |
 
 <!-- END_METRICS -->
 
