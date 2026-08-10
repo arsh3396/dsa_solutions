@@ -8,8 +8,9 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 | Topic Collection | Questions Solved |
 | :--- | :---: |
 | 📂 Arrays | **3** |
-| 📂 Hashing | **1** |
-| **Total Progress** | **4 / 175+** |
+| 📂 BinarySearch | **1** |
+| 📂 Hashing | **2** |
+| **Total Progress** | **6 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -21,7 +22,11 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 - [Sort123](./src/Arrays/Sort123.java)
 - [Two Sum](./src/Arrays/TwoSum.java)
 
+### BinarySearch
+- [Single Element In Sorted Array](./src/BinarySearch/SingleElementInSortedArray.java)
+
 ### Hashing
 - [Contains Duplicate](./src/Hashing/ContainsDuplicate.java)
+- [Majority Element1](./src/Hashing/MajorityElement1.java)
 
 <!-- END_INDEX -->
