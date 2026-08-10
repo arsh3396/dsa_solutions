@@ -7,9 +7,9 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 | Topic Collection | Questions Solved |
 | :--- | :---: |
-| 📂 Arrays | **2** |
+| 📂 Arrays | **3** |
 | 📂 Hashing | **1** |
-| **Total Progress** | **3 / 175+** |
+| **Total Progress** | **4 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -18,6 +18,7 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 ### Arrays
 - [Palindrom](./src/Arrays/Palindrom.java)
+- [Sort123](./src/Arrays/Sort123.java)
 - [Two Sum](./src/Arrays/TwoSum.java)
 
 ### Hashing
