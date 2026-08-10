@@ -10,7 +10,8 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 | 📂 Arrays | **6** |
 | 📂 BinarySearch | **2** |
 | 📂 Hashing | **2** |
-| **Total Progress** | **10 / 175+** |
+| 📂 LinkedList | **3** |
+| **Total Progress** | **13 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -32,5 +33,10 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 ### Hashing
 - [Contains Duplicate](./src/Hashing/ContainsDuplicate.java)
 - [Majority Element1](./src/Hashing/MajorityElement1.java)
+
+### LinkedList
+- [Linked List Palindrome](./src/LinkedList/LinkedListPalindrome.java)
+- [Middle Of Linked List](./src/LinkedList/MiddleOfLinkedList.java)
+- [Reverse Linked List](./src/LinkedList/ReverseLinkedList.java)
 
 <!-- END_INDEX -->
