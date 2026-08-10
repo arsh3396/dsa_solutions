@@ -8,7 +8,8 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 | Topic Collection | Questions Solved |
 | :--- | :---: |
 | 📂 Arrays | **2** |
-| **Total Progress** | **2 / 175+** |
+| 📂 Hashing | **1** |
+| **Total Progress** | **3 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -18,5 +19,8 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 ### Arrays
 - [Palindrom](./src/Arrays/Palindrom.java)
 - [Two Sum](./src/Arrays/TwoSum.java)
+
+### Hashing
+- [Contains Duplicate](./src/Hashing/ContainsDuplicate.java)
 
 <!-- END_INDEX -->
