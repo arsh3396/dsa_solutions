@@ -9,10 +9,11 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 | :--- | :---: |
 | 📂 Arrays | **6** |
 | 📂 BinarySearch | **4** |
+| 📁 BinarySearch / OnAnswers | **2** |
 | 📂 Hashing | **3** |
 | 📂 LinkedList | **3** |
 | 📂 TwoPointer | **1** |
-| **Total Progress** | **17 / 175+** |
+| **Total Progress** | **19 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -32,6 +33,10 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 - [Search In Rotated Sorted Array1](./src/BinarySearch/SearchInRotatedSortedArray1.java)
 - [Search In Rotated Sorted Array2](./src/BinarySearch/SearchInRotatedSortedArray2.java)
 - [Single Element In Sorted Array](./src/BinarySearch/SingleElementInSortedArray.java)
+
+#### BinarySearch / OnAnswers
+- [Koko Eating Banana](./src/BinarySearch/OnAnswers/KokoEatingBanana.java)
+- [Painters Partition](./src/BinarySearch/OnAnswers/PaintersPartition.java)
 
 ### Hashing
 - [Contains Duplicate](./src/Hashing/ContainsDuplicate.java)
