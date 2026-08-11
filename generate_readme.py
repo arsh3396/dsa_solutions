@@ -9,32 +9,57 @@ def generate_dashboard():
         print("Missing src/ folder or README.md file!")
         return
 
-    # 1. Scan the src directory for topic folders and java files
-    topics = sorted([d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))])
-
+    # Dictionary to hold structures: {"Topic" or "Topic / SubTopic": [list_of_java_files]}
+    structured_index = {}
     total_solved = 0
+
+    # 1. Recursively walk through src directory
+    for root, dirs, files in os.walk(base_dir):
+        # Filter and sort Java files in the current folder
+        java_files = sorted([f for f in files if f.endswith(".java")])
+        if not java_files:
+            continue
+
+        # Get path relative to 'src' folder (e.g., "BinarySearch" or "BinarySearch/OnAnswer")
+        relative_folder = os.path.relpath(root, base_dir)
+
+        # Format the topic heading name for the markdown (e.g., "BinarySearch / OnAnswer")
+        topic_heading = relative_folder.replace(os.sep, " / ")
+
+        structured_index[topic_heading] = {
+            "files": java_files,
+            "root_path": root
+        }
+        total_solved += len(java_files)
+
+    # Sort topics alphabetically
+    sorted_topics = sorted(structured_index.keys())
+
+    # Build Metrics Table and Index Content
     metrics_table = "| Topic Collection | Questions Solved |\n| :--- | :---: |\n"
     index_content = ""
 
-    for topic in topics:
-        topic_path = os.path.join(base_dir, topic)
-        # Find all valid Java files inside the topic directory
-        java_files = sorted([f for f in os.listdir(topic_path) if f.endswith(".java")])
+    for topic in sorted_topics:
+        files_data = structured_index[topic]
+        java_files = files_data["files"]
+        root_path = files_data["root_path"]
         count = len(java_files)
 
-        if count == 0:
-            continue
+        # Use 📂 icon for top-level folders, and 📁 icon for nested subfolders
+        icon = "📂" if " / " not in topic else "📁"
+        metrics_table += f"| {icon} {topic} | **{count}** |\n"
 
-        total_solved += count
-        metrics_table += f"| 📂 {topic} | **{count}** |\n"
+        # Match heading depth based on subfolder depth (### for main, #### for subfolders)
+        heading_prefix = "####" if " / " in topic else "###"
+        index_content += f"\n{heading_prefix} {topic}\n"
 
-        # Format the links nicely for GitHub markdown
-        index_content += f"\n### {topic}\n"
         for file in java_files:
             problem_name = file.replace(".java", "")
-            # Adds spaces between CamelCase names (e.g., "TwoSum" -> "Two Sum")
+            # Adds spaces between CamelCase names
             formatted_name = re.sub(r'(?<!^)(?=[A-Z])', ' ', problem_name)
-            relative_url = f"./src/{topic}/{file}"
+
+            # Dynamically resolve accurate relative URL
+            relative_url = "./" + os.path.normpath(os.path.join(root_path, file)).replace(os.sep, "/")
             index_content += f"- [{formatted_name}]({relative_url})\n"
 
     metrics_table += f"| **Total Progress** | **{total_solved} / 175+** |\n"
