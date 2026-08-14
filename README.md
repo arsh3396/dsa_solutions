@@ -7,15 +7,15 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 | Topic Collection | Questions Solved |
 | :--- | :---: |
-| 📂 Arrays | **6** |
+| 📂 Arrays | **8** |
 | 📂 Backtracking | **3** |
 | 📂 BinarySearch | **4** |
 | 📁 BinarySearch / OnAnswers | **4** |
 | 📂 Hashing | **3** |
 | 📂 LinkedList | **3** |
-| 📂 Tree | **4** |
+| 📂 Tree | **11** |
 | 📂 TwoPointer | **1** |
-| **Total Progress** | **28 / 175+** |
+| **Total Progress** | **37 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -24,8 +24,10 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 ### Arrays
 - [Max Subarray Sum](./src/Arrays/MaxSubarraySum.java)
+- [Merge Sorted Array](./src/Arrays/MergeSortedArray.java)
 - [Palindrom](./src/Arrays/Palindrom.java)
 - [Rearrange Element By Sign](./src/Arrays/RearrangeElementBySign.java)
+- [Rotate Array](./src/Arrays/RotateArray.java)
 - [Rotate Matrix By90](./src/Arrays/RotateMatrixBy90.java)
 - [Sort123](./src/Arrays/Sort123.java)
 - [Two Sum](./src/Arrays/TwoSum.java)
@@ -59,9 +61,16 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 ### Tree
 - [Inorder Traversal](./src/Tree/InorderTraversal.java)
+- [Invert Binary Tree](./src/Tree/InvertBinaryTree.java)
 - [Level Order Traversal](./src/Tree/LevelOrderTraversal.java)
+- [Lowest Comman Ancestor](./src/Tree/LowestCommanAncestor.java)
+- [Maximum Depth Of B T](./src/Tree/MaximumDepthOfBT.java)
 - [Post Order](./src/Tree/PostOrder.java)
 - [Preorder Traversal](./src/Tree/PreorderTraversal.java)
+- [Right Side View](./src/Tree/RightSideView.java)
+- [Same Tree](./src/Tree/SameTree.java)
+- [Symmetric Tree](./src/Tree/SymmetricTree.java)
+- [Zig Zag Traversal](./src/Tree/ZigZagTraversal.java)
 
 ### TwoPointer
 - [Container With Most Water](./src/TwoPointer/ContainerWithMostWater.java)
