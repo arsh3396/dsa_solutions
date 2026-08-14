@@ -13,9 +13,9 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 | 📁 BinarySearch / OnAnswers | **4** |
 | 📂 Hashing | **3** |
 | 📂 LinkedList | **3** |
-| 📂 Tree | **11** |
+| 📂 Tree | **17** |
 | 📂 TwoPointer | **1** |
-| **Total Progress** | **37 / 175+** |
+| **Total Progress** | **43 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -60,16 +60,22 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 - [Reverse Linked List](./src/LinkedList/ReverseLinkedList.java)
 
 ### Tree
+- [Bottom View](./src/Tree/BottomView.java)
+- [Boundary Traversal](./src/Tree/BoundaryTraversal.java)
 - [Inorder Traversal](./src/Tree/InorderTraversal.java)
 - [Invert Binary Tree](./src/Tree/InvertBinaryTree.java)
 - [Level Order Traversal](./src/Tree/LevelOrderTraversal.java)
 - [Lowest Comman Ancestor](./src/Tree/LowestCommanAncestor.java)
 - [Maximum Depth Of B T](./src/Tree/MaximumDepthOfBT.java)
+- [Path Sum](./src/Tree/PathSum.java)
+- [Path Sum2](./src/Tree/PathSum2.java)
 - [Post Order](./src/Tree/PostOrder.java)
 - [Preorder Traversal](./src/Tree/PreorderTraversal.java)
 - [Right Side View](./src/Tree/RightSideView.java)
 - [Same Tree](./src/Tree/SameTree.java)
+- [Sum Root To Leaf Numbers](./src/Tree/SumRootToLeafNumbers.java)
 - [Symmetric Tree](./src/Tree/SymmetricTree.java)
+- [Top View](./src/Tree/TopView.java)
 - [Zig Zag Traversal](./src/Tree/ZigZagTraversal.java)
 
 ### TwoPointer
