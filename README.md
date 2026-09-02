@@ -7,15 +7,16 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 
 | Topic Collection | Questions Solved |
 | :--- | :---: |
-| 📂 Arrays | **8** |
+| 📂 Arrays | **9** |
 | 📂 Backtracking | **3** |
 | 📂 BinarySearch | **4** |
 | 📁 BinarySearch / OnAnswers | **4** |
 | 📂 Hashing | **3** |
 | 📂 LinkedList | **3** |
+| 📂 SlidingWindow | **1** |
 | 📂 Tree | **17** |
 | 📂 TwoPointer | **1** |
-| **Total Progress** | **43 / 175+** |
+| **Total Progress** | **45 / 175+** |
 
 <!-- END_METRICS -->
 
@@ -26,6 +27,7 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 - [Max Subarray Sum](./src/Arrays/MaxSubarraySum.java)
 - [Merge Sorted Array](./src/Arrays/MergeSortedArray.java)
 - [Palindrom](./src/Arrays/Palindrom.java)
+- [Pattern](./src/Arrays/Pattern.java)
 - [Rearrange Element By Sign](./src/Arrays/RearrangeElementBySign.java)
 - [Rotate Array](./src/Arrays/RotateArray.java)
 - [Rotate Matrix By90](./src/Arrays/RotateMatrixBy90.java)
@@ -58,6 +60,9 @@ Welcome to my DSA repository! This dashboard updates automatically whenever I pu
 - [Linked List Palindrome](./src/LinkedList/LinkedListPalindrome.java)
 - [Middle Of Linked List](./src/LinkedList/MiddleOfLinkedList.java)
 - [Reverse Linked List](./src/LinkedList/ReverseLinkedList.java)
+
+### SlidingWindow
+- [Count Subarray With Score Less Then K](./src/SlidingWindow/CountSubarrayWithScoreLessThenK.java)
 
 ### Tree
 - [Bottom View](./src/Tree/BottomView.java)
